@@ -1,0 +1,13 @@
+version: '3.7'
+services:
+  nginx:
+    image: nginx:1.21
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./html:/usr/share/nginx/html:ro
+      - ./nginx:/etc/nginx
+      - ./cert:/cert
+
+      #openssl req -newkey rsa:4096 -nodes -sha256 --keyout pandadosol.com.br.key -x509 -days 365 -out pandadosol.com.br.crt
