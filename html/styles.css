@@ -1,0 +1,67 @@
+/* Reset de Estilos */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 20px;
+}
+
+.logo img {
+    width: 50px; /* Ajuste o tamanho conforme sua logo */
+    height: auto;
+    vertical-align: middle;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.logo .logo-img {
+    width: 150px; /* Defina o tamanho desejado para a logo */
+    height: auto;
+    vertical-align: middle;
+}
